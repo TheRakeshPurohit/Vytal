@@ -60,4 +60,14 @@ export const theme: Theme = {
       m: 0,
     },
   },
+  links: {
+    footer: {
+      color: 'text',
+      mb: '8px',
+      fontSize: '11px',
+      position: 'fixed',
+      bottom: '0',
+      textDecoration: 'none',
+    },
+  },
 }

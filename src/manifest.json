@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "Vytal - Spoof timezone, geolocation, locale and user agent",
-  "version": "2.0.0",
+  "name": "Vytal - Spoof timezone, location & user agent",
+  "version": "2.0.1",
   "description": "Spoof timezone, geolocation, locale and user agent.",
-  "permissions": ["storage", "debugger", "activeTab"],
+  "permissions": ["storage", "debugger"],
   "background": { "service_worker": "background.bundle.js" },
   "action": {
     "default_popup": "popup.html",

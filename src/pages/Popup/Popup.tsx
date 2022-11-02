@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { ThemeProvider, Flex, Box, Text } from 'theme-ui'
+import { ThemeProvider, Flex, Box, Text, Link } from 'theme-ui'
 import { theme } from '../../theme'
 import { MapPin, Globe, ExternalLink } from 'react-feather'
 import TabItem from './TabItem'
@@ -43,23 +43,17 @@ const Popup = () => {
         <Box sx={{ m: '12px', width: '100%' }}>
           <LocationPage tab={tab} />
           <UserAgentPage tab={tab} />
-          <Text
-            sx={{
-              mb: '8px',
-              fontSize: '11px',
-              position: 'fixed',
-              bottom: '0',
-              cursor: 'pointer',
-            }}
-            onClick={() => window.open('https://vytal.io')}
+          <Link
+            variant="footer"
+            href={`https://go.getproton.me/aff_c?offer_id=26&aff_id=3825`}
+            target="_blank"
           >
             Vytal does not change your IP address. To change your IP address you
             will need to use a VPN such as{' '}
             <Text sx={{ color: 'primaryDark', textDecoration: 'underline' }}>
               Proton VPN
             </Text>
-            .
-          </Text>
+          </Link>
         </Box>
       </Flex>
     </ThemeProvider>

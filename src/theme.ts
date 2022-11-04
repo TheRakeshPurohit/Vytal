@@ -69,5 +69,12 @@ export const theme: Theme = {
       bottom: '0',
       textDecoration: 'none',
     },
+    hover: {
+      color: 'primaryDark',
+      textDecoration: 'none',
+      '&:hover': {
+        textDecoration: 'underline',
+      },
+    },
   },
 }

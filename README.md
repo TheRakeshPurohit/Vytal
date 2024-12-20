@@ -1,4 +1,4 @@
-# The Vytal extension was acquired on December 15, 2024, and this repository will no longer receive updates.
+# The Vytal extension was acquired and this repository will no longer receive updates.
 
 
 # Vytal
